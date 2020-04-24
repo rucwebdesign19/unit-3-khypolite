@@ -1,0 +1,115 @@
+:root {
+	font-family: sans-serif;
+	font-size: 1.3em; 
+	line-height: 1.4em;
+}
+h1 {
+	font-family: sans-serif, serif;
+	font-size: 1.3em;
+	line-height: 1.4;
+   }
+h2 {
+	font-family: sans-serif, serif;
+	font-size: 1.3em;
+	line-height: 1.4;
+	text-align: center;
+}
+p {
+	font-family: sans-serif, serif;
+	font-size: 1.3em;
+	line-height: 1.4;
+	text-align: center;
+}
+ @media only screen and (min-width: 600px){
+ 	.text {
+ 		max-width: 75vw;
+ 		margin-left: auto;
+ 		margin-right: auto;
+ 		text-align: center;
+ 	}
+ }
+ @media only screen and (min-width: 900px) {
+
+ 	.text {
+ 		max-width: 50vw;
+ 		margin-left: auto;
+ 		margin-right: auto;
+ 	}
+}
+body {
+	background-size: cover;
+	background-attachment: fixed;
+	background-color: ;
+	margin: 0;
+}
+}
+ul {
+	list-style-type: none;
+}
+nav {
+	padding: 1em;
+	width: 100%;
+	background-color: lightgray;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+nav {
+text-align: center;
+margin: 20px 0 0 ;
+padding: 10px 0;
+}
+
+nav ul{
+  list-style: none;
+  margin: 0 2px;
+  padding: 0;
+}
+
+nav li {
+   display: inline-block;
+   padding: 5px 5px;
+}
+
+nav a {
+  font-weight: normal;
+  padding: 10px 5px;
+  font-size: .80em;
+}
+
+html * {
+
+    box-sizing: border-box;
+}
+
+[list] ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.pic1 {
+	max-width: 100%;
+	display: block;
+	text-align: center;
+}
+ @media only screen and (min-width: 600px){
+ 	.pic1 {
+ 		max-width: 70vw;
+ 		margin-left: auto;
+ 		margin-right: auto;
+ 	}
+ }
+ @media only screen and (min-width: 900px) {
+
+ 	.pic1 {
+ 		max-width: 45vw;
+ 		margin-left: auto;
+ 		margin-right: auto;
+ 	}
+ }
+ .text {
+ 	background-color: white;
+ }
